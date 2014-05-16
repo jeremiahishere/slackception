@@ -1,28 +1,9 @@
-== README
+== Slackception
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+clone the repo
+clone the repo at git@github.com:jeremiahishere/slackbot.git into a separate folder
+Check the Gemfile and make sure the slackbot dependency is pointing at the right path
+bundle install
+Create a file called auth.token and put it in the root directory.  Put your slack api token into it.  Be careful with permissions and new lines at the end of the file.
+rails s
+got to http://your_ip:3000 and start slackceptioning

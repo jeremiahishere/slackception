@@ -1,0 +1,14 @@
+<h1>Slackception</h1>
+
+<%= form_tag submit_path, :method => 'get', :remote => true do %>
+  <h4>Username</h4>
+  <%= select_tag 'username', options_for_select(@users) %>
+  <br />
+  <h4>Room</h4>
+  <%= select_tag 'group', options_for_select(@groups) %>
+  <br />
+  <h4>Message</h4>
+  <%= text_field_tag 'message' %>
+  <br />
+  <%= submit_tag 'Chat' %>
+<% end %>
