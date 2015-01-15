@@ -3,7 +3,8 @@
 clone the repo
 clone the repo at git@github.com:jeremiahishere/slackbot.git into a separate folder
 Check the Gemfile and make sure the slackbot dependency is pointing at the right path
-bundle install
+maybe comment out debugger in the Gemfile depending on what version of ruby you are on
+bundle install --path=vendor/bundle
 Create a file called auth.token and put it in the root directory.  Put your slack api token into it.  Be careful with permissions and new lines at the end of the file.
 rails s
 got to http://your_ip:3000 and start slackceptioning

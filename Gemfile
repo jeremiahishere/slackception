@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem "slackbot", :path => "~/code/slackbot"
-gem "debugger"
+# gem "debugger"
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
